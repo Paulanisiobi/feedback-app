@@ -53,7 +53,8 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd feedback-app && git pull origin
-            cd feedback-app && npm install
-            cd feedback-app && npm run start
+            ls
+           # cd feedback-app && git pull origin
+           # cd feedback-app && npm install
+           # cd feedback-app && npm run start
               
