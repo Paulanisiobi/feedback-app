@@ -1,4 +1,4 @@
-name: Feedback App1
+name: Feedback App
 
 on:
   push:
