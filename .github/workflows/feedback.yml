@@ -55,6 +55,6 @@ jobs:
           script: |
             ls
             cd feedback-app && git pull origin
-            cd feedback-app && npm install
-            cd feedback-app && npm run start
+            npm install
+            npm run start
               
