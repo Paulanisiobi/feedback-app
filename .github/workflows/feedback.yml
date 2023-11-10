@@ -54,5 +54,6 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd feedback-app && git pull main
+            cd feedback-app && npm install
             cd feedback-app && npm run start
               
